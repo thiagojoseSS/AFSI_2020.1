@@ -100,10 +100,15 @@ body {
     text-align: center;
     font-size: 1.4rem;
     margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left:25%;
+    margin-right:25%;
 }
 
 .modulo > div > p {
     font-size: 1.2rem;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .info {
