@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/exercicio.css">
+    <title>Curso PHP</title>
+</head>
+<style>
+    
+.hero_image {
+    background-image: url("logo_ufrpe.png");
+    height: 200xp;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+<body class="exercicio">
+    <header class="cabecalho">
+        <h1>Curso BSI</h1>
+        <h2>AFSI</h2>
+    </header>
+    <nav class="navegacao">
+        <a href="indexi.php" class="vermelho">Voltar</a>
+    </nav>
+    <main class="principal">
+        <div class="conteudo" class="hero_image">
+            <?php
+                // include($_GET['dir']."/".$_GET['file'].".php");
+                include("{$_GET['dir']}/{$_GET['file']}.php");
+                // include("teste/teste.php");
+            ?>
+        </div>
+    </main>
+    <footer class="rodape">
+        BSI - Trabalho Exercício 3 da cadeira AFSI - feito em 2021, periodo 2020.1 - Prof.: Antonio Apolinario _ © <?= date('Y')?>
+    </footer>
+</body>
+</html>
