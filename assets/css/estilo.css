@@ -43,7 +43,7 @@ body {
 .principal {
     grid-area: principal;
     height: calc(100vh - 180px); /* Tamanho total da tela- cabecalho e rodape */
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
 }
 
@@ -75,9 +75,9 @@ body {
 }
 
 .modulo {
-    flex-basis: 32%;
+    flex-basis: 100%;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .modulo > h3 {
@@ -85,35 +85,33 @@ body {
     color: white;
     font-weight: 300;
     font-size: 1.5rem;
+    text-align: center;
     padding: 10px 20px;
     background: rgb(10, 84, 153);
 }
 
-.modulo > ul {
+.modulo > div {
     margin: 0px;
     padding: 10px;
     list-style: none;
 }
 
-.modulo > ul > li {
-    padding: 5px;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-
-.modulo > ul > li > a {
-    display: flex;
-    text-decoration: none;
-    color: #222;
-}
-
-.modulo > ul > li:hover {
-    background: rgb(212, 212, 212);
+.modulo > div > h4 {
+    text-align: center;
 }
 
 .modulo.verde { border: 2px solid rgb(78, 163, 78);}
 .modulo.verde > h3 { background: rgb(78, 163, 78, 0.8);}
 
+.modulo.azul { border: 2px solid rgba(63, 55, 168);}
+.modulo.azul > h3 { background: rgb(63, 55, 168, 0.7);}
+
+.modulo.vermelho { border: 2px solid rgb(190, 22, 22);}
+.modulo.vermelho > h3 { background: rgb(190, 22, 22, 0.7);}
+
+.modulo.amarelo { border: 2px solid rgb(223, 191, 15);}
+.modulo.amarelo > h3 { background: rgb(223, 191, 15, 0.7);}
+.modulo.amarelo > h3 { color:rgb(10, 84, 153)}
 
 p.divisao {margin-top: 0px;font-weight: bold;}
 hr {margin-bottom: 0px;}
