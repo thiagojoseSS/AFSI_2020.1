@@ -64,7 +64,7 @@ body {
     align-items: center;
     font-size: 1.2rem;
     padding-right: 20px;
-    color: rgb(78, 78, 78);
+    color: rgb(53, 53, 53);
 
 }
 
@@ -106,9 +106,9 @@ body {
 }
 
 .modulo > div > p {
-    font-size: 1.2rem;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-size: 1.3rem;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 .info {
@@ -132,9 +132,3 @@ body {
 .modulo.amarelo { border: 2px solid rgb(223, 191, 15);}
 .modulo.amarelo > h3 { background: rgb(223, 191, 15, 0.9);}
 .modulo.amarelo > h3 { color:rgb(10, 84, 153)}
-
-p.divisao {margin-top: 0px;font-weight: bold;}
-hr {margin-bottom: 0px;}
-
-p.divisao2 {margin-bottom: 0px;font-weight: bold;}
-hr.d2 {margin-top: 0px;}
